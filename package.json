@@ -1,24 +1,27 @@
 {
   "name": "ai-dictionary",
-  "version": "1.0.0",
-  "description": "AI 术语词典",
-  "main": "generate.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "node generate.js",
-    "build": "node generate.js build",
-    "dev": "nodemon generate.js"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tianyw0/ai-dictionary.git"
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
-  "keywords": [
-    "AI",
-    "dictionary"
-  ],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
-    "nodemon": "^3.0.2"
+    "@eslint/js": "^9.25.0",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@vitejs/plugin-react": "^4.4.1",
+    "eslint": "^9.25.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "vite": "^6.3.5"
   }
 }
