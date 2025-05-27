@@ -1,0 +1,24 @@
+{
+  "name": "ai-dictionary",
+  "version": "1.0.0",
+  "description": "AI 术语词典",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js",
+    "build": "node generate.js build",
+    "dev": "nodemon generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianyw0/ai-dictionary.git"
+  },
+  "keywords": [
+    "AI",
+    "dictionary"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

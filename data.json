@@ -1,23 +1,34 @@
 {
-  "embedding": "将文本、图像或其他对象转换为稠密向量，用于相似度计算或建模输入。",
-  "RAG": "Retrieval-Augmented Generation (检索增强生成)，一种结合外部知识库检索与大模型生成的架构。",
-  "agent": "智能体，具备感知、思考、行动能力的系统，可自主完成任务（如 AI 助手）。",
-  "vector database": "支持高效向量相似度检索的数据库（如 Faiss、Milvus、Elasticsearch）。",
-  "collaborative filtering": "基于用户行为的推荐算法，包括 User-Based 和 Item-Based 两种。",
-  "content-based recommendation": "基于物品内容特征（如文本、标签）进行相似推荐的算法。",
-  "matrix factorization": "将用户-物品评分矩阵分解为低维隐向量，用于建模偏好关系。",
-  "TF-IDF": "Term Frequency-Inverse Document Frequency (词频-逆文档频率)，用于评估词在文档中的重要程度。",
-  "BERT": "Bidirectional Encoder Representations from Transformers (基于 Transformer 的双向编码器表示)，由 Google 提出的预训练语言模型，用于理解文本语义并生成嵌入向量。",
-  "SVD": "Singular Value Decomposition (奇异值分解)，一种常用的矩阵分解方法，常用于推荐系统。",
-  "ALS": "Alternating Least Squares (交替最小二乘法)，一种用于矩阵分解优化的算法，适用于大规模推荐场景。",
-  "wide and deep": "将线性模型与神经网络结合的推荐结构，兼顾记忆与泛化能力。",
-  "DIN": "Deep Interest Network (深度兴趣网络)，用于捕捉用户兴趣的注意力推荐模型。",
-  "backpropagation": "神经网络训练中用于调整模型参数的核心算法，基于误差反向传播。",
-  "LLM rerank": "Large Language Model (大语言模型) rerank，利用大语言模型对初步召回结果进行排序优化。",
-  "user embedding": "用户的向量表示，通常学习自其历史行为或特征。",
-  "item embedding": "物品的向量表示，通常由内容或用户行为生成。",
-  "semantic retrieval": "基于语义向量而非关键词的检索方式。",
-  "GPT": "Generative Pre-trained Transformer (生成式预训练 Transformer)，由 OpenAI 提出的生成式预训练语言模型，用于自然语言生成和理解。",
-  "recommendation copilot": "基于大模型的对话式推荐助手。",
-  "deepfm": "DeepFM (深度因子分解机模型)，融合因子分解机 (Factorization Machine) 和 DNN (Deep Neural Network) 的推荐架构，兼顾稀疏特征和非线性建模。"
+  "基础概念": {
+    "embedding": "将文本、图像或其他对象转换为稠密向量，用于相似度计算或建模输入。",
+    "backpropagation": "神经网络训练中用于调整模型参数的核心算法，基于误差反向传播。"
+  },
+
+  "向量检索": {
+    "vector database": "支持高效向量相似度检索的数据库（如 Faiss、Milvus、Elasticsearch）。",
+    "TF-IDF": "Term Frequency-Inverse Document Frequency (词频-逆文档频率)，用于评估词在文档中的重要程度。",
+    "user embedding": "用户的向量表示，通常学习自其历史行为或特征。",
+    "item embedding": "物品的向量表示，通常由内容或用户行为生成。",
+    "semantic retrieval": "基于语义向量而非关键词的检索方式。",
+    "LLM rerank": "Large Language Model (大语言模型) rerank，利用大语言模型对初步召回结果进行排序优化。"
+  },
+
+  "推荐系统": {
+    "collaborative filtering": "基于用户行为的推荐算法，包括 User-Based 和 Item-Based 两种。",
+    "content-based recommendation": "基于物品内容特征（如文本、标签）进行相似推荐的算法。",
+    "matrix factorization": "将用户-物品评分矩阵分解为低维隐向量，用于建模偏好关系。",
+    "SVD": "Singular Value Decomposition (奇异值分解)，一种常用的矩阵分解方法，常用于推荐系统。",
+    "ALS": "Alternating Least Squares (交替最小二乘法)，一种用于矩阵分解优化的算法，适用于大规模推荐场景。",
+    "wide and deep": "将线性模型与神经网络结合的推荐结构，兼顾记忆与泛化能力。",
+    "DIN": "Deep Interest Network (深度兴趣网络)，用于捕捉用户兴趣的注意力推荐模型。",
+    "deepfm": "DeepFM (深度因子分解机模型)，融合因子分解机 (Factorization Machine) 和 DNN (Deep Neural Network) 的推荐架构，兼顾稀疏特征和非线性建模。",
+    "recommendation copilot": "基于大模型的对话式推荐助手。"
+  },
+
+  "大语言模型": {
+    "RAG": "Retrieval-Augmented Generation (检索增强生成)，一种结合外部知识库检索与大模型生成的架构。",
+    "agent": "智能体，具备感知、思考、行动能力的系统，可自主完成任务（如 AI 助手）。",
+    "BERT": "Bidirectional Encoder Representations from Transformers (基于 Transformer 的双向编码器表示)，由 Google 提出的预训练语言模型，用于理解文本语义并生成嵌入向量。",
+    "GPT": "Generative Pre-trained Transformer (生成式预训练 Transformer)，由 OpenAI 提出的生成式预训练语言模型，用于自然语言生成和理解。"
+  }
 }
