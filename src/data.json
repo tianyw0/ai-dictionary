@@ -5,6 +5,7 @@
   },
 
   "向量检索": {
+    "ANN": "Approximate Nearest Neighbor (近似最近邻)，一种用于向量检索的技术，能在海量向量中快速找出最相似的若干个。Elasticsearch 8+ 支持HNSW、IVF等算法实现。",
     "Vector database": "支持高效向量相似度检索的数据库（如 Faiss、Milvus、Elasticsearch）。",
     "TF-IDF": "Term Frequency-Inverse Document Frequency (词频-逆文档频率)，用于评估词在文档中的重要程度。",
     "User embedding": "用户的向量表示，通常学习自其历史行为或特征。",
