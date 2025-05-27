@@ -21,7 +21,7 @@
     "ALS": "Alternating Least Squares (交替最小二乘法)，一种用于矩阵分解优化的算法，适用于大规模推荐场景。",
     "Wide and deep": "将线性模型与神经网络结合的推荐结构，兼顾记忆与泛化能力。",
     "DIN": "Deep Interest Network (深度兴趣网络)，用于捕捉用户兴趣的注意力推荐模型。",
-    "deepfm": "DeepFM (深度因子分解机模型)，融合因子分解机 (Factorization Machine) 和 DNN (Deep Neural Network) 的推荐架构，兼顾稀疏特征和非线性建模。",
+    "DeepFM": "DeepFM (深度因子分解机模型)，融合因子分解机 (Factorization Machine) 和 DNN (Deep Neural Network) 的推荐架构，兼顾稀疏特征和非线性建模。",
     "Recommendation copilot": "基于大模型的对话式推荐助手。"
   },
 
