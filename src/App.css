@@ -2,7 +2,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .logo {
@@ -48,11 +48,15 @@
 }
 
 .App h1 {
-  text-align: center;
   color: #2c3e50;
-  margin-bottom: 0.8rem; /* 减小标题下边距 */
   font-size: 1.6rem; /* 减小标题字号 */
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.slogan {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.8rem;
 }
 
 /* TermCategory.jsx 样式 */
@@ -63,6 +67,7 @@
 .category-section h2 {
   color: #2c3e50;
   font-size: 1.1rem; /* 减小分类标题字号 */
+  font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: 0.6rem; /* 减小分类标题下边距 */
   padding-bottom: 0.2rem;
   border-bottom: 1px solid #e0e0e0; /* 细化边框 */
