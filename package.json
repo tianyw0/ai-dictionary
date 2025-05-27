@@ -1,8 +1,9 @@
 {
   "name": "ai-dictionary",
   "private": true,
-  "version": "1.0.4",
+  "version": "1.0.6",
   "type": "module",
+  "homepage": "https://tianyw0.github.io/ai-dictionary/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
