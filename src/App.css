@@ -53,8 +53,11 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.slogan {
+.App .slogan-bar {
+  display: flex;
   font-size: 0.8rem;
+  align-items: center;
+  gap: 0.5rem;
   color: #666;
   margin-bottom: 0.8rem;
 }
